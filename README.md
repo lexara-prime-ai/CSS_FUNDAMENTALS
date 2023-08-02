@@ -13,7 +13,11 @@ At its core, CSS allows web developers to apply styling to HTML elements, such a
 ## Key Concepts of CSS:
 
 1.  **Selectors**: Selectors target HTML elements and define which elements the styles should be applied to. They can target elements based on their **tag name, class, ID, attributes, or even their relationship with other elements**.
-    
+    ```css
+    body {
+        background: red;
+    }
+    ```
 2.  **Properties**: CSS properties dictate the appearance of the selected elements. Examples of properties include **"color" (for text color), "font-size" (for text size), "background-color" (for background color),** and many more.
     
 3.  **Values**: Each CSS property is assigned a value that determines how the property should be applied. **For instance, the "color" property could have a value like "red," "#00ff00" (hexadecimal), or "rgb(255, 0, 0)" (RGB value)**.
