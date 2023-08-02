@@ -14,7 +14,7 @@ At its core, CSS allows web developers to apply styling to HTML elements, such a
 
 **IMPORTANT**: The **CSS box model** is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content. The image below illustrates the box model:
 
-![]()
+![](https://github.com/projectfinalaudio/CSS_FUNDAMENTALS/blob/master/images/box%20model.png?raw=true)
 
 1.  **Selectors**: Selectors target HTML elements and define which elements the styles should be applied to. They can target elements based on their **tag name, class, ID, attributes, or even their relationship with other elements**.
     ```css
