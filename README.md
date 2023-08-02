@@ -23,12 +23,12 @@ At its core, CSS allows web developers to apply styling to HTML elements, such a
     }
 
     .class {
-        background: tomato;
+        background: #eeee;
     }
     ```
 
     ```html
-    <p data-attribute-name="par">This is HTML</p>
+    <p data-attribute-name="value">This is HTML</p>
     ```
 
     ```css
@@ -36,14 +36,51 @@ At its core, CSS allows web developers to apply styling to HTML elements, such a
         background: lime;
     }
 
-    [data-attribute-name="par"] {
+    [data-attribute-name="valu"] {
         background: #242424;
     }
     ```
 2.  **Properties**: CSS properties dictate the appearance of the selected elements. Examples of properties include **"color" (for text color), "font-size" (for text size), "background-color" (for background color),** and many more.
-    
+    ```css
+    body {
+        background: white;
+    }
+
+    p {
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 1.2rem;
+    }
+    ```
 3.  **Values**: Each CSS property is assigned a value that determines how the property should be applied. **For instance, the "color" property could have a value like "red," "#00ff00" (hexadecimal), or "rgb(255, 0, 0)" (RGB value)**.
-    
+     ```css
+    body {
+        background: white;
+    }
+
+    body {
+        background: #eeee;
+    }
+
+    body {
+        background: rgb(255, 255, 255);
+    }
+
+    body {
+        background: rgb(255, 255, 255);
+    }
+
+    body {
+        hsl(0, 0%, 100%)
+    } 
+
+    p {
+        font-size: 12px;
+        font-weight: 600;
+         letter-spacing: 1.2px;
+        line-height: 1.2rem;
+    }
+    ```
 4.  **Rules and Declarations**: CSS rules consist of a selector and a set of declarations enclosed in curly braces. Declarations are composed of a **property-value pair, separated by a colon and terminated with a semicolon.**
     
 5.  **Stylesheet**: A CSS stylesheet is a file containing all the **CSS rules that style a web page**. It can be linked to an HTML document using the "link" element or included directly within the HTML file using the "style" element.
