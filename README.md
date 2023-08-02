@@ -12,6 +12,10 @@ At its core, CSS allows web developers to apply styling to HTML elements, such a
 
 ## Key Concepts of CSS:
 
+**IMPORTANT**: The **CSS box model** is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content. The image below illustrates the box model:
+
+![]()
+
 1.  **Selectors**: Selectors target HTML elements and define which elements the styles should be applied to. They can target elements based on their **tag name, class, ID, attributes, or even their relationship with other elements**.
     ```css
     body {
@@ -36,7 +40,7 @@ At its core, CSS allows web developers to apply styling to HTML elements, such a
         background: lime;
     }
 
-    [data-attribute-name="valu"] {
+    [data-attribute-name="value"] {
         background: #242424;
     }
     ```
@@ -67,10 +71,6 @@ At its core, CSS allows web developers to apply styling to HTML elements, such a
     }
 
     body {
-        background: rgb(255, 255, 255);
-    }
-
-    body {
         hsl(0, 0%, 100%)
     } 
 
@@ -84,8 +84,10 @@ At its core, CSS allows web developers to apply styling to HTML elements, such a
 4.  **Rules and Declarations**: CSS rules consist of a selector and a set of declarations enclosed in curly braces. Declarations are composed of a **property-value pair, separated by a colon and terminated with a semicolon.**
     
 5.  **Stylesheet**: A CSS stylesheet is a file containing all the **CSS rules that style a web page**. It can be linked to an HTML document using the "link" element or included directly within the HTML file using the "style" element.
-
-6. The HREF full form is a **Hypertext reference**. It represents a hyperlink from one web address to another.  The HREF property **specifies the hyperlink's destination.**
+```html
+<link rel="stylesheet" type="text/css" href="styles.css" />
+```
+6. The HREF in full stands for **Hypertext reference**. It represents a hyperlink from one web address to another.  The HREF property **specifies the hyperlink's destination.**
     
 7.  **Cascading Order**: The "Cascading" in CSS refers to the process of determining which styles should be applied when multiple rules target the same element. The order of importance is generally based on specificity, origin, and order of appearance in the stylesheet.
     
@@ -93,14 +95,14 @@ At its core, CSS allows web developers to apply styling to HTML elements, such a
 
 To apply CSS styles to an HTML document, you can follow these steps:
 
-1.  Create an HTML file: Start by creating a basic HTML file with the content you want to style.
+1.  **Create an HTML file**: Start by creating a basic HTML file with the content you want to style.
     
-2.  Create a CSS file (optional): For larger projects or better organization, create a separate CSS file to hold all the styles.
+2.  **Create a CSS file** (*preferred*): For larger projects or better organization, create a separate CSS file to hold all the styles.
     
-3.  Link CSS to HTML: In the HTML file, use the "link" element in the "head" section to link to the CSS file. Alternatively, use the "style" element to include CSS directly within the HTML document.
+3.  **Link CSS to HTML**: In the HTML file, use the "link" element in the "head" section to link to the CSS file. Alternatively, use the "style" element to include CSS directly within the HTML document.
     
-4.  Write CSS rules: In the CSS file, or within the "style" element, write CSS rules by selecting HTML elements and applying properties with their respective values.
+4.  **Write CSS rules**: In the CSS file, or within the "style" element, write CSS rules by selecting HTML elements and applying properties with their respective values.
     
-5.  Save and view: Save both the HTML and CSS files and open the HTML file in a web browser to see the styled content.
+5.  **Save and view**: Save both the HTML and CSS files and open the HTML file in a web browser to see the styled content.
     
 With these basic concepts, you can start experimenting with CSS to enhance the appearance of your web pages and create visually compelling designs. As you gain proficiency, you can explore more advanced features and techniques to build responsive and engaging user interfaces.
