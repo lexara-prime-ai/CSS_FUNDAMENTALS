@@ -56,7 +56,7 @@ At its core, CSS allows web developers to apply styling to HTML elements, such a
         line-height: 1.2rem;
     }
     ```
-3.  **Values**: Each CSS property is assigned a value that determines how the property should be applied. **For instance, the "color" property could have a value like "red," "#00ff00" (hexadecimal), or "rgb(255, 0, 0)" (RGB value)**.
+3.  **Values**: Each CSS property is assigned a value that determines how the property should be applied. **For instance, the "color" property could have a value like "red," "#00ff00" (hexadecimal), or "rgb(255, 0, 0)" (RGB value)**. Useful resources: https://www.rapidtables.com/web/color/RGB_Color.html
      ```css
     body {
         background: white;
