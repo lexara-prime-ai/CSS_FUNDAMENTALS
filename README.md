@@ -4,6 +4,12 @@ CSS, short for **Cascading Style Sheets**, is a fundamental web technology **use
 
 At its core, CSS allows web developers to apply styling to HTML elements, such as **fonts, colors, margins, padding, and positioning.** By separating the content (HTML) from the presentation (CSS), it **enables better organization and maintainability of web pages, making it easier to update styles without modifying the underlying content.**
 
+## Without CSS
+![](https://github.com/projectfinalaudio/CSS_FUNDAMENTALS/blob/master/images/without%20css.png?raw=true)
+
+## With CSS
+![](https://github.com/projectfinalaudio/CSS_FUNDAMENTALS/blob/master/images/with%20css.png?raw=true)
+
 ## Key Concepts of CSS:
 
 1.  **Selectors**: Selectors target HTML elements and define which elements the styles should be applied to. They can target elements based on their **tag name, class, ID, attributes, or even their relationship with other elements**.
