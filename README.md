@@ -15,7 +15,29 @@ At its core, CSS allows web developers to apply styling to HTML elements, such a
 1.  **Selectors**: Selectors target HTML elements and define which elements the styles should be applied to. They can target elements based on their **tag name, class, ID, attributes, or even their relationship with other elements**.
     ```css
     body {
-        background: red;
+        background: white;
+    }
+
+    #id {
+        background: #242424;
+    }
+
+    .class {
+        background: tomato;
+    }
+    ```
+
+    ```html
+    <p data-attribute-name="par">This is HTML</p>
+    ```
+
+    ```css
+    [data-attribute-name] {
+        background: lime;
+    }
+
+    [data-attribute-name="par"] {
+        background: #242424;
     }
     ```
 2.  **Properties**: CSS properties dictate the appearance of the selected elements. Examples of properties include **"color" (for text color), "font-size" (for text size), "background-color" (for background color),** and many more.
