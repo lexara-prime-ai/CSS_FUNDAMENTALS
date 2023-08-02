@@ -16,7 +16,9 @@ At its core, CSS allows web developers to apply styling to HTML elements, such a
 
 ![](https://github.com/projectfinalaudio/CSS_FUNDAMENTALS/blob/master/images/box%20model.png?raw=true)
 
-**TIP**: The **box-sizing** property allows us to include the padding and border in an element's total width and height. If you set box-sizing: border-box; on an element, padding and border are included in the width and height: Both divs are the same size now
+**TIP**: The **box-sizing** property allows us to include the padding and border in an element's total width and height. If you set box-sizing: border-box; on an element, both the padding and border are included in the width and height:
+
+![](https://github.com/projectfinalaudio/CSS_FUNDAMENTALS/blob/master/images/box%20sizing.png?raw=true)
 
 1.  **Selectors**: Selectors target HTML elements and define which elements the styles should be applied to. They can target elements based on their **tag name, class, ID, attributes, or even their relationship with other elements**.
     ```css
